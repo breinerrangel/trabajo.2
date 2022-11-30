@@ -12,7 +12,7 @@
 
 // let invercion =parseFloat(prompt("ingre la cantidad a invertir : "))
 // let ganar = invercion*0.12
-// console.log(`usted va a ganar mensual 1.2% que equibalen a ${ganar} de su invercion `)
+// console.log(`usted va a ganar mensual 1.2% que equivalen a ${ganar} de su invercion `)
 
 //TERCER PUNTO
 
@@ -29,3 +29,74 @@
 // let porcentaje= precio*0.5
 // total=(venta*comisicon)+porcentaje+salario
 // console.log(`el total del salario del empleado es de `, total)
+
+//QUINTO PUNTO
+
+// let nota1,nota2,nota3,nota4=0
+// nota1=parseFloat(prompt("ingrese la primera nota : "))
+// nota2=parseFloat(prompt("ingrese la segunda nota : "))
+// nota3=parseFloat(prompt("ingrese la tercera nota : "))
+// nota4=parseFloat(prompt("ingrese la cuerta nota "))
+// let total=((nota1+nota2)*4.0)+((nota3+nota4)*6.0)
+// promedio=total/2
+// console.log(`su promedio es de ${promedio}`)
+
+// SEXTO PUNTO
+
+// let edad =parseInt(prompt("ingrese su edad : "))
+// let sexo=prompt("ingrese f para femenina y m para masculino :")
+// if (sexo=="m") {
+//     masculino=(210-edad)/10
+//     console.log(masculino)
+// }
+// else if(sexo=="f"){
+//     femenino=(220-edad)/10
+//     console.log(femenino)
+
+// } 
+// else{
+//     console.log("error")
+// }
+
+
+//SEPTIMO PUNTO
+
+
+// let sueldoBase=parseFloat(prompt("ingerse su sueldo : "))
+// let vendas=parseInt(prompt("ingrese el valor de las tres ventas : "))
+// comicion=(vendas*0.10)
+// sueldo=comicion+sueldoBase
+// console.log(`su comicion por las tres vendas es de ${comicion} y su sueldo total al mes es de ${sueldo}`)
+
+
+
+
+//OCTAVO PUNTO
+
+// let mate1=parseFloat(prompt("ingrese la primera nota de matematicas : "))
+// let mate2=parseFloat(prompt("ingrese la segunda nota de matematicas : "))
+// let mate3=parseFloat(prompt("ingrese la tercera  nota de matematicas  : "))
+// let mateexa=parseFloat(prompt("ingrese la nota del examen de matematicas  : "))
+// total=(((mate1+mate2+mate3)/3)*0.1)+(mateexa*0.9)
+
+// console.log(`el promedio de matematicas es de ` ,total)
+
+// let ficica1=parseInt(prompt("ingrese el la primera nota  de ficica : "))
+// let ficica2=parseInt(prompt("ingrese el la segunda  nota  de ficica : "))
+// let ficica3=parseInt(prompt("ingrese el la terecera   nota  de ficica : "))
+// let ficicaexa=parseInt(prompt("ingrese el la  nota  del exame  ficica : "))
+// total1=(((ficica1+ficica2+ficica3)/3)*0.2)+(ficicaexa*0.8)
+
+// console.log(`el promedio de fisica es de `,total1)
+
+
+let quimica1=parseInt(prompt("ingrese la primera nota de quimica : "))
+let quimica2=parseInt(prompt("ingrese la segunda nota de quimica : "))
+let quimica3=parseInt(prompt("ingrese la tercera  nota de quimica : "))
+let quimicaexa=parseInt(prompt("ingrese la nota del examen quimica : "))
+total2=(((quimica1+quimica2+quimica3)/3)*0.15)+(quimicaexa*0.85)
+console.log(`el promedio  de quimica es de `,total2)
+
+
+
+
